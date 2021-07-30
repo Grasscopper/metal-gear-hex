@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HexGame from './HexGame';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HexGame />
   </React.StrictMode>,
   document.getElementById('root')
 );
